@@ -5,7 +5,7 @@ import { LinkedInSVG, GitHubSVG } from "./Svgs";
 
 const Header = () => {
   return (
-    <header className="flex w-screen flex-col items-center justify-center bg-header-background bg-header py-8 text-header-text shadow-xl">
+    <header className="flex w-full flex-col items-center justify-center bg-header-background bg-header py-8 text-header-text shadow-xl">
       <Image
         src="/images/profile.webp"
         alt="Carl Lindman"
