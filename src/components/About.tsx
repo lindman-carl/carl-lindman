@@ -14,8 +14,7 @@ const About = () => {
         to learn new technologies and frameworks. I am a passionate problem
         solver and I love building things just to prove my ability to. I believe
         that limiting myself to either front-end or back-end would be limiting
-        my creativity. The most exciting applications are built with a full
-        stack approach.
+        my creativity, no exciting apps are built with only one of those.
       </p>
       <p>
         I am <b>currently looking</b> for a full time position as a{" "}
