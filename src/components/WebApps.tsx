@@ -1,14 +1,13 @@
 import Image from "next/image";
 
 const BadgeSVG = () => (
-  <div className="relative flex max-w-min items-center justify-center outline drop-shadow">
+  <div className="relative flex max-w-min -rotate-6 items-center justify-center outline drop-shadow">
     <svg
       width="100"
       height="100"
       viewBox="0 0 26.458333 26.458333"
       className="absolute"
     >
-      <defs id="defs381" />
       <path
         //  style="fill:#000000;stroke-width:0.499999"
         className="fill-header-contrast text-white"
