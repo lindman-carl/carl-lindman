@@ -24,7 +24,7 @@ const Header = () => {
       <div className="flex flex-row gap-x-4 py-4 drop-shadow">
         <a
           href="
-              https://www.linkedin.com/in/carl-lindman-5b1b1b1b1/"
+          https://www.linkedin.com/in/carl-lindman-0926"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
