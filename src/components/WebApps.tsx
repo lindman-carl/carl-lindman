@@ -25,7 +25,7 @@ const WebApps = () => {
       <h2 className="mb-6 text-left text-2xl font-black text-content-text">
         Web apps
       </h2>
-      <div className="grid grid-cols-2 gap-x-4 pb-2 drop-shadow-lg sm:grid-cols-3">
+      <div className="mb-6 grid grid-cols-2 gap-x-4 pb-2 drop-shadow-lg sm:grid-cols-3">
         <a
           href="https://seasweeper.lindman.dev"
           target="_blank"
@@ -57,6 +57,18 @@ const WebApps = () => {
           />
         </a>
       </div>
+      <span className="">
+        See my{" "}
+        <a
+          href="https://github.com/lindman-carl"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold text-header-contrast"
+        >
+          GitHub profile
+        </a>{" "}
+        for more projects!
+      </span>
     </section>
   );
 };
