@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex w-full flex-col items-center justify-center bg-header-background bg-header py-8 text-header-text shadow-xl">
       <Image
-        src="/images/profile.webp"
+        src="/images/carl_profile.jpeg"
         alt="Carl Lindman"
         width={280}
         height={280}
