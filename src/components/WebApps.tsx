@@ -23,7 +23,7 @@ const WebApps = () => {
   return (
     <section className="mt-8 w-full max-w-[65ch]">
       <h2 className="mb-4 text-left text-2xl font-black text-content-text">
-        creative
+        ~ Creative
       </h2>
       <div className="mb-4 grid grid-cols-2 gap-x-4 pb-2 drop-shadow-lg sm:grid-cols-3">
         <a

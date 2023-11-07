@@ -42,7 +42,7 @@ export default function Home() {
       </main>
       <footer className="mt-8 mb-4 flex justify-center text-content-text">
         <span>
-          <span className="">carl lindman</span>&nbsp;
+          <span className="">Carl Lindman</span>&nbsp;
           <span className="align-super text-xs text-violet-600">
             {new Date().getFullYear()}
           </span>

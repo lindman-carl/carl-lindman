@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section className="prose mt-8 text-content-text">
-      <h2 className="mb-2 text-2xl font-black text-content-text ">carl</h2>
+      <h2 className="mb-2 text-2xl font-black text-content-text ">~ Carl</h2>
       <p>
         is employed as an <b>IT consultant</b> at <b>AFRY</b> in&nbsp;
         <a
@@ -23,7 +23,7 @@ const About = () => {
         I really enjoy using <b>new stuff</b>.
       </p>
       <p className="text-xs">
-        i dislike uppercase letters. if only we, as a society, could ban them.
+        i dislike uppercase letters. if only we, as a society, would ban them.
       </p>
     </section>
   );

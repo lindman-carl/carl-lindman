@@ -40,8 +40,8 @@ const Header = () => {
           <GitHubSVG />
         </a>
       </div>
-      <span className="text-xs font-bold opacity-20">
-        skilled, creative, carl
+      <span className="text-xs font-bold  opacity-20">
+        ~ Skilled ~ Creative ~ Carl ~
       </span>
     </header>
   );

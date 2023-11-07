@@ -14,13 +14,17 @@ const MissingMedal = () => {
 const Skills = () => {
   return (
     <section className="mt-8 w-full max-w-[65ch]">
-      <h2 className="mb-2 text-2xl font-black text-content-text">skilled</h2>
-      <ul className="leading-10">
+      <h2 className="mb-2 text-2xl font-black text-content-text">~ Skilled</h2>
+      <ul className="">
         <li className="text-content-text">
-          <span className="font-bold">Proficient in</span>&nbsp;
-          <span>JavaScript/TypeScript, CSS, C#, Python</span>
+          <span className="font-bold">Proficient</span>
+          <span> in JavaScript/TypeScript, CSS and C#</span>
         </li>
-        <li className="flex w-full items-center text-content-text">
+        <li className="text-content-text">
+          <span className="font-bold">Familiar</span>
+          <span> with Python, Azure and AWS</span>
+        </li>
+        <li className="mt-2 flex w-full items-center text-content-text">
           <MissingMedal />
           &nbsp;
           <span className="font-bold">Azure Developer Associate - AZ-204</span>
