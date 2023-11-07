@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         header: {
           background: "hsla(209, 40%, 30%, 1)",
-          text: "hsla(209, 100%, 95%, 1)",
+          text: "hsla(209, 100%, 98%, 1)",
           contrast: "hsla(24, 100%, 60%, 1)",
         },
         content: {
