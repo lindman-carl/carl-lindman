@@ -19,7 +19,7 @@ const Header = () => {
         Carl Lindman
       </h1>
       <span className="text-lg font-normal">
-        it consultant & full stack developer
+        IT consultant & full stack developer
       </span>
       <div className="flex flex-row gap-x-4 py-4 drop-shadow">
         <a
