@@ -16,7 +16,7 @@ const About = () => {
         I am a self-taught <b>full stack developer</b>, currently excited by
         building complex stateful web apps with <b>React</b>. I believe that
         nothing you can&apos;t build with <b>TypeScript</b> is worth building,
-        unless you pay me then anything is possible. I soon have the ability to
+        unless you pay me, then anything is possible. I soon have the ability to
         put my projects on <b>Azure</b>.
       </p>
       <p>
