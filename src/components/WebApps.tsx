@@ -65,7 +65,7 @@ const WebApps = () => {
           rel="noopener noreferrer"
           className="underline"
         >
-          Carl&apos;s GitHub
+          GitHub
         </a>
         &nbsp;for more projects
       </span>
