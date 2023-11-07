@@ -1,41 +1,30 @@
 const About = () => {
   return (
     <section className="prose mt-8 text-content-text">
-      <h2 className="mb-6 text-2xl font-black text-content-text">About Me</h2>
+      <h2 className="mb-2 text-2xl font-black text-content-text ">carl</h2>
       <p>
-        I am a self-taught <b>full stack web developer</b> excited by building{" "}
-        <em>complex stateful web apps</em> with <b>React.js</b>, with a love for
-        the predictability of <b>TypeScript</b> and the efficiency of{" "}
-        <b>TailwindCSS</b>.
+        is employed as an <b>IT consultant</b> at <b>AFRY</b> in&nbsp;
+        <a
+          href="https://en.wikipedia.org/wiki/Gothenburg"
+          aria-label="Göteborg Wikipedia"
+        >
+          Gothenburg
+        </a>
+        , Sweden.
+      </p>
+      <p className="text-justify">
+        I am a self-taught <b>full stack developer</b>, currently excited by
+        building complex stateful web apps with <b>React</b>. I believe that
+        nothing you can&apos;t build with <b>TypeScript</b> is worth building,
+        unless you pay me then anything is possible. I soon have the ability to
+        put my projects on <b>Azure</b>.
       </p>
       <p>
-        The ever-evolving environment of web development is exactly what my
-        dopamine receptors crave. I grasp concepts quickly and I am always eager
-        to learn new technologies and frameworks. I am a passionate problem
-        solver and I love building things just to prove my ability to. I believe
-        that limiting myself to either front-end or back-end would be limiting
-        my creativity, no exciting apps are built with only one of those.
+        I really enjoy using <b>new stuff</b>.
       </p>
-      <p>
-        I am <b>currently looking</b> for a full time position as a{" "}
-        <b>web developer</b>.
+      <p className="text-xs">
+        i dislike uppercase letters. if only we, as a society, could ban them.
       </p>
-      {/* <h3>Strengths and weaknesses</h3>
-    <ul>
-    <li>Strengths</li>
-    <ul>
-    <li>Fast learner</li>
-    <li>Self-motivated</li>
-    <li>Team player</li>
-    <li>Problem solver</li>
-    <li>Good communicator</li>
-    </ul>
-    <li>Weaknesses</li>
-    <ul>
-    <li>Can be a perfectionist</li>
-    <li>Can be a bit of a procrastinator</li>
-    </ul>
-  </ul> */}
     </section>
   );
 };

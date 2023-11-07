@@ -36,12 +36,17 @@ export default function Home() {
       </Head>
       <Header />
       <main className="flex w-full flex-col items-center justify-start px-4 text-content-text sm:px-0">
+        <Skills />
         <WebApps />
         <About />
-        <Skills />
       </main>
-      <footer className="flex justify-center p-8 text-content-text">
-        @lindman_dev
+      <footer className="mt-8 mb-4 flex justify-center text-content-text">
+        <span>
+          <span className="">carl lindman</span>&nbsp;
+          <span className="align-super text-xs text-violet-600">
+            {new Date().getFullYear()}
+          </span>
+        </span>
       </footer>
     </>
   );

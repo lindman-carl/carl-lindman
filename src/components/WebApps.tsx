@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BadgeSVG = () => (
   <div className="relative flex max-w-min -rotate-6 items-center justify-center outline drop-shadow">
-    <svg width="100" height="100" viewBox="0 0 26.5 26.5" className="absolute">
+    <svg width="75" height="75" viewBox="0 0 26.5 26.5" className="absolute">
       <path
         className="fill-header-contrast stroke-white"
         strokeWidth={0.25}
@@ -10,7 +10,7 @@ const BadgeSVG = () => (
         transform="matrix(1.0995883,0,0,1.0995883,0.21346472,-0.11420935)"
       />
     </svg>
-    <span className="absolute text-center font-bold leading-none text-white ">
+    <span className="absolute text-center text-xs font-bold leading-none text-white ">
       856
       <br />
       upvotes
@@ -22,10 +22,10 @@ const BadgeSVG = () => (
 const WebApps = () => {
   return (
     <section className="mt-8 w-full max-w-[65ch]">
-      <h2 className="mb-6 text-left text-2xl font-black text-content-text">
-        Web apps
+      <h2 className="mb-4 text-left text-2xl font-black text-content-text">
+        creative
       </h2>
-      <div className="mb-6 grid grid-cols-2 gap-x-4 pb-2 drop-shadow-lg sm:grid-cols-3">
+      <div className="mb-4 grid grid-cols-2 gap-x-4 pb-2 drop-shadow-lg sm:grid-cols-3">
         <a
           href="https://seasweeper.lindman.dev"
           target="_blank"
@@ -57,17 +57,17 @@ const WebApps = () => {
           />
         </a>
       </div>
-      <span className="">
-        See my{" "}
+      <span className="text-sm">
+        See my&nbsp;
         <a
           href="https://github.com/lindman-carl"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-bold text-header-contrast"
+          className="underline"
         >
           GitHub profile
-        </a>{" "}
-        for more projects!
+        </a>
+        &nbsp;for more projects!
       </span>
     </section>
   );
