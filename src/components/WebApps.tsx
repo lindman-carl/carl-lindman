@@ -58,16 +58,16 @@ const WebApps = () => {
         </a>
       </div>
       <span className="text-sm">
-        See my&nbsp;
+        Visit&nbsp;
         <a
           href="https://github.com/lindman-carl"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
         >
-          GitHub profile
+          Carl&apos;s GitHub
         </a>
-        &nbsp;for more projects!
+        &nbsp;for more projects
       </span>
     </section>
   );
