@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex w-full flex-col items-center justify-center bg-header-background bg-header py-8 text-header-text shadow-xl">
       <Image
-        src="/images/carl_profile.jpeg"
+        src="/images/carl_profile_crop.jpeg"
         alt="Carl Lindman"
         width={280}
         height={280}
@@ -19,7 +19,7 @@ const Header = () => {
         Carl Lindman
       </h1>
       <span className="text-lg font-normal">
-        Web Developer/React Enthusiast
+        IT Consultant & Full Stack Developer
       </span>
       <div className="flex flex-row gap-x-4 py-4 drop-shadow">
         <a
